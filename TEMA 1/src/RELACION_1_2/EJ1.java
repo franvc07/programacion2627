@@ -1,4 +1,6 @@
-public class EJ1REL12 {
+package RELACION_1_2;
+
+public class EJ1 {
     static void main(String[] args) {
         for (int numeros = 1; numeros <=100; numeros++){
             if (numeros % 7==0){
@@ -9,3 +11,5 @@ public class EJ1REL12 {
         }
     }
 }
+
+
