@@ -9,14 +9,6 @@ public class EJ9 {
         int num;
 
 
-        do {
-            System.out.println("Introduce un número");
-            num = teclado.nextInt();
 
-            if (num > 0){
-
-            }
-
-        }
     }
 }

@@ -8,7 +8,7 @@ public class EJ8 {
         System.out.println("Dime un numero");
         int num1;
         int respuesta;
-        int S;
+        int S = 0;
         int N;
         num1 = teclado.nextInt();
         for (int i = 0; i < num1; i++){
