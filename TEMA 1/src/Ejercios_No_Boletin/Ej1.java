@@ -1,6 +1,8 @@
+package Ejercios_No_Boletin;
+
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ej1 {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int numero = teclado.nextInt();
