@@ -47,8 +47,28 @@ public class Ej4 {
 
             terminaciones[numeroAleatorio % 10]++;
 
-
         }
+
+        int max = -1;
+        int posicion = 0;
+
+        System.out.println("La media de los números es: " + (double) suma / TOTAL_NUMEROS);
+
+        for (int i = 0; i < terminaciones.length; i++) {
+            if (terminaciones [i] > max){
+                max = terminaciones [i];
+                posicion = i;
+            }
+        }
+
+
+        for (int i = 0; i < terminaciones.length; i++) {
+            System.out.printf("El nº %d se ha repetido %d veces. Esto equivale a un %f%% %n", i, terminaciones[i], (double) terminaciones[i] / TOTAL_NUMEROS * 100);
+        }
+
+        System.out.println("El número que más se repitió es: " + posicion);
+        System.out.println("Se repitio: " + max + " veces");
+
 
     }
 
